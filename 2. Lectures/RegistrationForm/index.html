@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="http://www.google.com">
+        <div>
+            <label for="f_name">First Name: *</label>
+            <input type="text" name="f_name" id="f_name">
+        </div>
+
+        <div>
+            <label for="l_name">Last Name: *</label>
+            <input type="text" name="l_name" id="l_name">
+        </div>
+
+        <div>
+            <label for="">Email Address: *</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="">password: *</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+
+        <div>
+            <!-- <label for="">confirm Password</label> -->
+            <input type="password" name="ckh_pass" id="chk_pass" placeholder="Confirm Password">
+        </div>
+
+        <div>
+            <label for="bday">Birthdate</label>
+            <input type="date" name="bday" id="bday">
+        </div>
+        <label>gender id</label>
+        <div>
+            <input type="radio" name="gender"  value="1">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender"  value="2">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender"  value="3">
+            <label for="nb">Non-bianary</label>
+
+            <input type="radio" name="gender"  value="4">
+            <label for="na">Prefer not to answer</label>
+        </div>
+
+        <select name="favLang" id="">
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JavaScript</option>
+            <option value="4">C#</option>
+        </select>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+    </form>
+</body>
+</html>
