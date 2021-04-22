@@ -1,0 +1,25 @@
+
+.nav{
+    background-color: rgb(55, 55, 55);
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+
+.big-div{
+    min-height: 3000px;
+}
+
+img{
+    width: 200px;
+}
+
+.position-center{
+    position: absolute;
+    top: 30px;
+    left: 370px;
+}
