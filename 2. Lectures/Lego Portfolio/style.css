@@ -1,0 +1,25 @@
+.nav{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+.card-col{
+    background-color: red;
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+}
+.connect-col{
+    background-color: greenyellow;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}

@@ -13,7 +13,7 @@ var d = {
     "thing3": [a, b, c]
 }
 
-// console.log(typeof a[1]);
+// console.log(typeof( a[1]));
 // console.log(typeof a[2]);
 // console.log(typeof a);
 // console.log(Array.isArray(a));
