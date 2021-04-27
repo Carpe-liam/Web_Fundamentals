@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Butcherman', cursive;
+}
+
+.nav{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+
+}
+.nav h1{
+    font-size: 4rem;
+}
+.main{
+    background-image: url('./img/1783828.jpeg');
+    background-size:contain;
+    height: 100vh;
+    text-align: center;
+}
+
+.main input{
+    width: 600px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.main button{
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+#myGif{
+    display: none;
+   
+}
+
+#truth{
+    color: whitesmoke;
+    opacity: 0;
+}
