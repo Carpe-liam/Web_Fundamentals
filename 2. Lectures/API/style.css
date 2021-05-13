@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 800px;
+    background-image: url("http://placekitten.com/1200/800");
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    margin-top: 200px;
+}
+
+.display button{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: azure;
+    background-color: rgb(255, 0, 247);
+    box-shadow: 4px 4px 3px black;
+}
