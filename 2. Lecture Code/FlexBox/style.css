@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: silver;
+    padding: 5px;
+    width: auto;
+    display:flex;
+}
+
+.col{
+    height: 250px;
+    width: 250px;
+    
+    
+
+  
+    /* border: 2px black solid; */
+}
+.i-wanna-flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.flex-col1{
+    flex: 1;
+}
+.flex-col4{
+    flex: 4;
+}
+
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+
+li{
+    list-style-type: none;
+    
+
+}
