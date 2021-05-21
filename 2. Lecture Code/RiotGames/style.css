@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-image: url('img/tibbers.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center 80px;
+}   
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    
+    color: rgb(218, 218, 218);
+}
+
+.left-header{
+    
+    display: flex;
+    align-items: center;
+}
+
+#logo-sprite{
+    width: 160px;
+    height: 160px;
+    background: url('img/fistsprite.png') 0 -2400px  ;
+    transform: scale(.3);
+}
+
+#logo-sprite:hover{
+    animation: run .3s steps(15) forwards;
+}
+
+@keyframes run {
+    100% {
+        background-position: 0 -0px;
+    }
+}
+
+#logo{
+    width: 160px;
+    height: 160px;
+    
+    background-image: url('img/fistsprite.png');
+    transform: scale(.3);
+    
+}
+
+.left-header img{
+    height: 60px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    margin: 20px;
+    font-size: .8rem;
+}
+
+#search{
+    background-color: rgb(43, 42, 41);
+    height: 33px;
+    width: 150px;
+    border-radius: 50px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search input{
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    color: whitesmoke;
+}
+
+#search input:focus{
+    outline: none;
+}
