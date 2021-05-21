@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <div class="top-nav">
+            <a href="">Home</a>
+            <a href="">My Profile</a>
+            <a href="">Find Connections</a>
+        </div>
+        <button onclick="signOutMsg()">Sign Out</button>
+    </header>
+    <div class="main">
+        <div class="left">
+            <div class="card">
+                <div class="header"></div>
+                <img src="http://www.placekitten.com/100/100" alt="">
+                <div class="content">
+                    <h1>Jane Doe</h1>
+                    <div class="location">
+                        <i class="material-icons">place</i>
+                        <h3>Seattle</h3>
+                    </div>
+                    <p class="m-2">Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet</p>
+                    <div class="edit">
+                        <a href="">
+                            <i id="none" class="material-icons">settings</i>
+                            <h5>Edit Profile</h5>
+                        </a>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="card">
+                <div class="dark-header">
+                    <h2>2</h2>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="connections">
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/30/30" alt="">
+                            <h2>Todd E</h2>
+                        </div>
+                        <div class="buttons">
+                            <span class="material-icons-outlined">check_circle</span>
+                            <span class="material-icons-outlined">highlight_off</span>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/30/30" alt="">
+                            <h2>Phil K</h2>
+                        </div>
+                        <div class="buttons">
+                            <span class="material-icons-outlined">check_circle</span>
+                            <span class="material-icons-outlined">highlight_off</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="dark-header">
+                    <h2>500+</h2>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="connections">
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/30/31" alt="">
+                            <h2>Adrien D</h2>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/31/30" alt="">
+                            <h2>Anne J</h2>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/30/32" alt="">
+                            <h2>Alayne T</h2>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="info">
+                            <img src="http://placekitten.com/32/30" alt="">
+                            <h2>Arry Y</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pay-the-man">
+        <h1>To Continue Pay Me MONEY$$$$</h1>
+        <button onclick="chargeCard()">Charge Card</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
