@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    background: #222;
+}
+
+.container{
+    padding: 20px;
+}
+
+.currency{
+    --border-width: 3px;
+    border: 5px solid;
+    border-radius: var(--border-width);
+}
+
+&::after{
+    position: absolute;
+}
+
+@keyframes moveGradient{
+    
+}
+
+.currType{
+    display: flex;
+}
+
+.currType h1:nth-of-type(2){
+    margin-left: 20px;
+}
