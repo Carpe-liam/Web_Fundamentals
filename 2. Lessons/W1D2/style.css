@@ -1,0 +1,71 @@
+/* selector -> property */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: wheat;
+    /*     top  right bottom left */
+    padding: 0px 20px 0px 20px;
+    
+}
+.container{
+    background: rgb(38, 38, 38);
+    color: whitesmoke;
+}
+
+header{
+    background-color: tomato;
+    padding: 20px;
+    
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header h1{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 2rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+#main-content{
+    text-align: center;
+    background: cornflowerblue;
+    padding: 20px 0px;
+}
+
+.pizza-add{
+    width: 200px;
+    display: inline-block;
+
+}
+
+.pizza-add img{
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+}
