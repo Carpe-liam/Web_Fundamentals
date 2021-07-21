@@ -59,6 +59,10 @@ nav li{
 .pizza-add{
     width: 200px;
     display: inline-block;
+    background-color: red;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
 
 }
 
