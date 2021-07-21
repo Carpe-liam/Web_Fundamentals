@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+
+    background-color: blue;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.interBox{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+.col-1{
+    flex: 1;
+}
+
+.col-2{
+    flex: 5;
+}
+
+
+.pink-background{
+    background-color: pink;
+}
+
+
+.yellow-back{
+    background-color: yellow;
+}
+
