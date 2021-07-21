@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+.green-bar{
+    width: 100%;
+    height: 130px;
+    background: green;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.blue-thing{
+    /* width: 200px; */
+    height: 230px;
+    background: blue;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.red-thing{
+    /* width: 500px; */
+    height: 300px;
+    background: red;
+    flex: 3;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow{
+    width: 150px;
+    height: 150px;
+    background: yellow;
+}
+
+.purple{
+    background: rebeccapurple;
+    height: 100px;
+    margin-top: 20px;
+}
