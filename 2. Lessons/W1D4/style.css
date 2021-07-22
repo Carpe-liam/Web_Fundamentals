@@ -9,7 +9,7 @@ nav{
     height: 100px;
     padding: 20px;
     background: linear-gradient(180deg, rgba(0,206,255,1) 50px, rgba(255,255,255,1) 18%);
-    color: whitesmoke;
+    color: black ;
     display: flex;
     justify-content: space-between;
     align-items: center;
