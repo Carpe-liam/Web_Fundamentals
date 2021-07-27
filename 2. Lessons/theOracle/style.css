@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Butcherman', cursive;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    background-image: url('images/1783828.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 5px red;
+}
+
+.menu{
+    margin-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu h1{
+    display: inline-block;
+}
+
+.menu button{
+    margin: 40px;
+    width: 200px;
+    height: 285px;
+    background-image: url("images/red_playing_card.png");
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px whitesmoke;
+}
+
+.container h1{
+    color: whitesmoke;
+}
+
+.rotate{
+    transform: rotate3d(0,1,1, 360deg);
+    transition-timing-function: ease-in-out;
+    transition: transform 1s;
+}
+.unRotated{
+    transform: rotate3d(0,1,1, 0deg);
+    transition-timing-function: ease-in-out;
+    transition: transform 1s;
+}
+
+.whiteBack{
+    background: whitesmoke !important;
+}
+
+
