@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: silver;
+    width: 750px;
+}
+
+.col{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#col-1{
+    display: flex;
+    /* padding: 20px 0px; */
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* flex: 4; */
+}
+
+#col-2{
+    /* flex: 1; */
+}
+
+#col-3{
+    /* flex: 5; */
+}
