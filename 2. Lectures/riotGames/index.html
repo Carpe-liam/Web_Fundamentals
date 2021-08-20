@@ -13,15 +13,15 @@
 <body>
     <div class="container">
         <header>
-            <div class="left-header">
-                <div id="logo-sprite"></div>
-                <img src="./riot-assets/riot_logo_small.png" alt="riot games logo small">
+            <div  class="left-header">
+                <div onclick="workWithUs(this)" id="logo-sprite"></div>
+                <img onclick="counter()" src="./riot-assets/riot_logo_small.png" alt="riot games logo small">
                 <a href="">WHO WE ARE</a>
                 <a href="">WORK WITH US</a>
                 <a href="">NEWS</a>
             </div>
             <div class="right-header">
-                <input type="text" placeholder="SEARCH">
+                <input onclick="alert('Search is disabled')" type="text" placeholder="SEARCH">
                 <p>&#128269;</p>
             </div>
         </header>
@@ -39,5 +39,6 @@
             <div class="row"></div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
